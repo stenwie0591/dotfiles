@@ -83,12 +83,14 @@ zinit wait lucid for \
     zdharma-continuum/fast-syntax-highlighting
 fastfetch
 
+
 # Git profile switch
 function git:Matteo() {
     git config --global user.name "Matteo Pugliese"
     git config --global user.email "stenwie91@hotmail.it"
     git config --global github.user "stenwie0591"
-    git config --global commit.gpgsign false
+    git config --global user.signingkey "4B6BE4E071131F89DA64D84FED5060830C8F09F3"
+    git config --global commit.gpgsign true
     echo "✅ Profilo git: Matteo (stenwie0591)"
 }
 

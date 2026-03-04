@@ -1,7 +1,7 @@
 [user]
 	name = Matteo Pugliese
 	email = stenwie91@hotmail.it
-	signingkey = F3575F984CBDD2808D5AE90B9AC21DCC5FE1E5C2
+	signingkey = 4B6BE4E071131F89DA64D84FED5060830C8F09F3
 [github]
 	user = stenwie0591
 [alias]
@@ -35,7 +35,7 @@
 [push]
 	autoSetupRemote = true
 [commit]
-	gpgsign = false
+	gpgsign = true
 [gpg]
 	program = gpg
 [init]
