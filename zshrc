@@ -68,3 +68,13 @@ eval $(thefuck --alias)
 eval "$(starship init zsh)"
 export STARSHIP_CACHE=~/.cache/starship
 export GPG_TTY=$(tty)
+eval "$(direnv hook zsh)"
+
+# Plugin aggiuntivi
+zinit wait lucid for \
+    zsh-users/zsh-history-substring-search \
+    MichaelAquilina/zsh-you-should-use
+
+# History substring search con frecce
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
