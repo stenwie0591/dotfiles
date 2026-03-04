@@ -1,9 +1,9 @@
 [user]
 	name = Matteo Pugliese
-	email = matteo@dritara.tech
+	email = stenwie91@hotmail.it
 	signingkey = F3575F984CBDD2808D5AE90B9AC21DCC5FE1E5C2
 [github]
-  user   = stenwie0591
+	user = stenwie0591
 [alias]
   a      = add
   cm     = commit -m
@@ -35,7 +35,7 @@
 [push]
 	autoSetupRemote = true
 [commit]
-	gpgsign = true
+	gpgsign = false
 [gpg]
 	program = gpg
 [init]

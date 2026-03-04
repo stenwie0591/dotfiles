@@ -82,3 +82,21 @@ bindkey '^[[B' history-substring-search-down
 zinit wait lucid for \
     zdharma-continuum/fast-syntax-highlighting
 fastfetch
+
+# Git profile switch
+function git:Matteo() {
+    git config --global user.name "Matteo Pugliese"
+    git config --global user.email "stenwie91@hotmail.it"
+    git config --global github.user "stenwie0591"
+    git config --global commit.gpgsign false
+    echo "✅ Profilo git: Matteo (stenwie0591)"
+}
+
+function git:Dritara() {
+    git config --global user.name "Matteo Pugliese"
+    git config --global user.email "matteo@dritara.tech"
+    git config --global github.user "Dritara"
+    git config --global user.signingkey "F3575F984CBDD2808D5AE90B9AC21DCC5FE1E5C2"
+    git config --global commit.gpgsign true
+    echo "✅ Profilo git: Dritara (matteo@dritara.tech)"
+}
