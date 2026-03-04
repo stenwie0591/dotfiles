@@ -81,3 +81,4 @@ bindkey '^[[B' history-substring-search-down
 # Fast syntax highlighting (sostituto più veloce di zsh-syntax-highlighting)
 zinit wait lucid for \
     zdharma-continuum/fast-syntax-highlighting
+fastfetch
