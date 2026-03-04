@@ -46,7 +46,6 @@ zinit light-mode for \
 # Plugins con Turbo mode
 zinit wait lucid for \
     zsh-users/zsh-autosuggestions \
-    zsh-users/zsh-syntax-highlighting \
     zsh-users/zsh-completions
 
 # Completions
@@ -78,3 +77,7 @@ zinit wait lucid for \
 # History substring search con frecce
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+# Fast syntax highlighting (sostituto più veloce di zsh-syntax-highlighting)
+zinit wait lucid for \
+    zdharma-continuum/fast-syntax-highlighting
